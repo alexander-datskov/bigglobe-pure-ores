@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "bigglobe:overworld/ores/pureores_moonstone",
+        "bigglobe:overworld/ores/pureores_jadeite",
+        "bigglobe:overworld/ores/pureores_chrysoberyl",
+        "bigglobe:overworld/ores/pureores_deepslate_sapphire",
+        "bigglobe:overworld/ores/pureores_deepslate_black_diamond",
+        "bigglobe:overworld/ores/pureores_lonsdaleite"
+       
+    ]
+}
