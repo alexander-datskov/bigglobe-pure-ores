@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "name": "Big Globe - Pure Ores Compatibility",
+        "id": "bgpo",
+        "pack_format": 48,
+        "version": "1.6",
+        "authors": [
+            "alexander-datskov"
+        ],
+        "description": "Adds compatibility between Big Globe and Pure Ores",
+        "license": "CC-BY-NC-4.0"
+    }
+}
