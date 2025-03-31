@@ -1,0 +1,18 @@
+{
+    "type": "bigglobe:ore",
+    "config": {
+        "seed": "pureores_jadeite",
+        "blocks": {
+            "minecraft:stone": "pureores:jadeite_ore",
+            "minecraft:cobblestone": "pureores:jadeite_ore",
+            
+        },
+        "chance": " (y > -300) && (y < 50) ? 0.3 : 0.0",
+        "radius": {
+            "type": "average",
+            "min": 2.5,
+            "max": 8,
+            "average": 3.5
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "bigglobe:ore",
+    "config": {
+        "seed": "pureores_sapphire",
+        "blocks": {
+            "minecraft:deepslate": "pureores:deepslate_sapphire_ore",
+            "minecraft:cobbled_deepslate": "pureores:deepslate_sapphire_ore",
+        },
+        "chance": " (y > -300) && (y < 75) ? 0.35 : 0.0",
+        "radius": {
+            "type": "average",
+            "min": 2.5,
+            "max": 8,
+            "average": 3.5
+        }
+    }
+}

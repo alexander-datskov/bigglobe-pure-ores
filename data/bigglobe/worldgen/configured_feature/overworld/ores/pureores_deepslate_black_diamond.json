@@ -1,0 +1,17 @@
+{
+    "type": "bigglobe:ore",
+    "config": {
+        "seed": "pureores_black_diamond",
+        "blocks": {
+            "minecraft:deepslate": "pureores:deepslate_black_diamond_ore",
+            "minecraft:cobbled_deepslate": "pureores:deepslate_black_diamond_ore",
+        },
+        "chance": "(`bigglobe:overworld/biome`.isIn('#bigglobe:ocean') || `bigglobe:overworld/biome`.isIn('bigglobe:dripping_cave'))  ? 0.25 : 0.0",
+        "radius": {
+            "type": "average",
+            "min": 2.5,
+            "max": 8,
+            "average": 3.5
+        }
+    }
+}

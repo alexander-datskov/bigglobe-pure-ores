@@ -1,0 +1,17 @@
+{
+    "type": "bigglobe:ore",
+    "config": {
+        "seed": "pureores_chrysoberyl",
+        "blocks": {
+            "minecraft:stone": "pureores:chrysoberyl_ore",
+            "minecraft:cobblestone": "pureores:chrysoberyl_ore"
+        },
+        "chance": " (y > 150) && ((`bigglobe:overworld/basic_surface_y` - y) < 5) ? 0.15 : 0.0",
+        "radius": {
+            "type": "bigglobe:average",
+            "min": 0.5,
+            "max": 1,
+            "average": 0.75
+        }
+    }
+}
