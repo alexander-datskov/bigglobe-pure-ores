@@ -1,0 +1,16 @@
+{
+    "type": "bigglobe:ore",
+    "config": {
+        "seed": "pureores_end_ametrine",
+        "blocks": {
+            "minecraft:end_stone": "pureores:end_ametrine_ore"
+        },
+        "chance": "0.25L",
+        "radius": {
+            "type": "bigglobe:average",
+            "min": 2,
+            "max": 6,
+            "average": 3.5
+        }
+    }
+}
